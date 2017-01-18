@@ -1,0 +1,29 @@
+body, button, html, input, select, textarea {
+    font-family: "Microsoft JhengHei";
+}
+
+.navbar-myxb {
+    background-color: #222 !important;
+}
+
+.navbar-brand {
+	color: #bb6565 !important;
+}
+
+.jumbotron-myxb {
+	padding-top: 80px;
+	padding-bottom: 10px;
+	background-color: #9e4747 !important;
+}
+
+.jumbotron-myxb * {
+	color: #fff;
+}
+
+.nav-item .nav-link {
+    color: #eee !important;
+}
+
+.nav-item .nav-link:hover {
+    color: #fff !important;
+}
