@@ -2,7 +2,7 @@ body, button, html, input, select, textarea {
     font-family: "Microsoft JhengHei";
 }
 
-.navbar-myxb {
+.navbar-bugs {
     background-color: #222 !important;
 }
 
@@ -10,13 +10,14 @@ body, button, html, input, select, textarea {
 	color: #bb6565 !important;
 }
 
-.jumbotron-myxb {
+.jumbotron-bugs {
 	padding-top: 80px;
 	padding-bottom: 10px;
+	border-radius: 0px;
 	background-color: #9e4747 !important;
 }
 
-.jumbotron-myxb * {
+.jumbotron-bugs * {
 	color: #fff;
 }
 
@@ -26,4 +27,23 @@ body, button, html, input, select, textarea {
 
 .nav-item .nav-link:hover {
     color: #fff !important;
+}
+
+.favs-bugs {
+	
+}
+
+@media (max-width: 480px) {
+	.jumbotron-bugs {
+		padding-top: 70px;
+		padding-bottom: 1px;
+	}
+
+	.jumbotron-bugs h1 {
+		font-size: 16px;
+	}
+
+	.jumbotron-bugs p {
+		font-size: 12px;
+	}
 }
