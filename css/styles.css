@@ -29,8 +29,13 @@ body, button, html, input, select, textarea {
     color: #fff !important;
 }
 
-.favs-bugs {
-	
+.favs-bugs h2 {
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+.favs-bugs p {
+	margin: 5px 0px;
 }
 
 @media (max-width: 480px) {
@@ -45,5 +50,9 @@ body, button, html, input, select, textarea {
 
 	.jumbotron-bugs p {
 		font-size: 12px;
+	}
+
+	.favs-bugs p {
+		font-size: 18px;
 	}
 }
