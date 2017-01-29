@@ -10,14 +10,23 @@ body, button, html, input, select, textarea {
 	color: #bb6565 !important;
 }
 
-.jumbotron-bugs {
-	padding-top: 80px;
+.jumbotron-bugs,
+.jumbotron-pcl {
+	padding-top: 30px;
 	padding-bottom: 10px;
 	border-radius: 0px;
+}
+
+.jumbotron-bugs {
 	background-color: #9e4747 !important;
 }
 
-.jumbotron-bugs * {
+.jumbotron-pcl {
+	background-color: #5b8cde !important;	
+}
+
+.jumbotron-bugs *,
+.jumbotron-pcl * {
 	color: #fff;
 }
 
@@ -36,6 +45,11 @@ body, button, html, input, select, textarea {
 
 .favs-bugs p {
 	margin: 5px 0px;
+}
+
+/* styles for sio2lst */
+.table-sio2lst thead th{
+	color: #1959c4;
 }
 
 @media (max-width: 480px) {
