@@ -50,6 +50,10 @@ body, button, html, input, select, textarea {
 	margin: 5px 0px;
 }
 
+.no-display {
+	display: none;
+}
+
 /* styles for sio2lst */
 .table-myyp thead th{
 	color: #1959c4;
