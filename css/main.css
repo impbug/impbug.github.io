@@ -54,6 +54,10 @@ body, button, html, input, select, textarea {
 	display: none;
 }
 
+.oauth-section {
+	padding-bottom: 10px;
+}
+
 /* styles for sio2lst */
 .table-myyp thead th{
 	color: #1959c4;
