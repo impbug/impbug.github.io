@@ -27,6 +27,21 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
+            <!-- Button that handles sign-in/sign-out -->
+            <button class="btn btn-primary" id="google-sign-in">Sign in with Google</button>
+            <!-- Container where we'll display the user details -->
+            <div class="google-user-details-container">
+              Firebase sign-in status: <span id="google-sign-in-status">Unknown</span>
+              <div>Firebase auth <code>currentUser</code> object value:</div>
+              <pre><code id="google-account-details">null</code></pre>
+              <div>Google OAuth Access Token:</div>
+              <pre><code id="google-oauthtoken">null</code></pre>
+            </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
           <table id="theList" class="table table-bordered table-hover table-sm table-myyp">
             <thead>
               <tr>
