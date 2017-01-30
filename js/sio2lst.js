@@ -1,6 +1,6 @@
 $(function() {
 
-    var ref = firebase.database().ref("pcustomers");
+    var ref = firebase.database().ref("glass");
 	ref.on("value", 
 	function(snapshot) {
 	   	jsfRenewList(snapshot);
@@ -18,7 +18,7 @@ function jsfRenewList(snapshot) {
 	snapshot.forEach(function(childSnapshot) {
 	    key = childSnapshot.key;
 	    childData = childSnapshot.val();
-	    vsBody += "<tr><td>"+childData.pcid+"</td><td>"+childData.pcname+"</td><td>"+childData.pcaddr+"</td><td>"+childData.pctel+"</td></tr>";
+	    vsBody += "<tr><td>"+childData.glid+"</td><td>"+childData.glname+"</td><td>"+childData.gladdr+"</td><td>"+childData.gltel+"</td><td>"+childData.glweb+"</td></tr>";
 	});
 
 	$("#theList > tbody").html(vsBody);
