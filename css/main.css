@@ -11,7 +11,7 @@ body, button, html, input, select, textarea {
 }
 
 .jumbotron-bugs,
-.jumbotron-pcl {
+.jumbotron-myyp {
 	padding-top: 30px;
 	padding-bottom: 10px;
 	border-radius: 0px;
@@ -21,13 +21,16 @@ body, button, html, input, select, textarea {
 	background-color: #9e4747 !important;
 }
 
-.jumbotron-pcl {
-	background-color: #5b8cde !important;	
+.jumbotron-myyp {
+	background-color: #fddd80 !important;	
 }
 
-.jumbotron-bugs *,
-.jumbotron-pcl * {
+.jumbotron-bugs {
 	color: #fff;
+}
+
+.jumbotron-myyp * {
+	color: #333;
 }
 
 .nav-item .nav-link {
@@ -38,35 +41,34 @@ body, button, html, input, select, textarea {
     color: #fff !important;
 }
 
-.favs-bugs h2 {
+.favs-item h2 {
 	padding-top: 10px;
 	font-size: 20px;
 }
 
-.favs-bugs p {
+.favs-item p {
 	margin: 5px 0px;
 }
 
 /* styles for sio2lst */
-.table-sio2lst thead th{
+.table-myyp thead th{
 	color: #1959c4;
 }
 
 @media (max-width: 480px) {
-	.jumbotron-bugs {
-		padding-top: 70px;
+	.jumbotron {
 		padding-bottom: 1px;
 	}
 
-	.jumbotron-bugs h1 {
+	.jumbotron h1 {
 		font-size: 18px;
 	}
 
-	.jumbotron-bugs p {
+	.jumbotron p {
 		font-size: 12px;
 	}
 
-	.favs-bugs p {
+	.favs-item p {
 		font-size: 18px;
 	}
 }
