@@ -96,7 +96,7 @@ window.onload = function() {
 
 $(function() {
 
-    var ref = firebase.database().ref('glass');
+  var ref = firebase.database().ref('glass');
 	ref.on('value', 
 	function(snapshot) {
 	   	renewList(snapshot);
@@ -114,8 +114,12 @@ function renewList(snapshot) {
 	snapshot.forEach(function(childSnapshot) {
 	    key = childSnapshot.key;
 	    childData = childSnapshot.val();
-	    vsBody += '<tr><td>'+childData.glid+'</td><td>'+childData.glname+'</td><td>'+childData.gladdr+'</td><td>'+childData.gltel+'</td><td>'+childData.glweb+'</td></tr>';
+      vsBody += '<div class="card col-sm-3"> <div class="card-block">'
+              + '<h5 class="card-title">'+childData.glname+' <small class="text-muted">'+childData.glid+'</small></h5>'
+              + '<ul><li><a href="tel:'+childData.gltel+'">'+childData.gltel+'</a></li>'
+              + '<li><a target="_blank" href="https://www.google.com.tw/maps/place/'+childData.gladdr+',18z">'+childData.gladdr+'</a></li>'
+              + '<li><a target="_blank" href="'+childData.glweb+'">'+childData.glweb+'</a></li><ul></div></div>';
 	});
 
-	$('#theList > tbody').html(vsBody);
+	$('#theList').html(vsBody);
 }

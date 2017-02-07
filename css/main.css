@@ -58,9 +58,28 @@ body, button, html, input, select, textarea {
 	padding-bottom: 10px;
 }
 
-/* styles for sio2lst */
-.table-myyp thead th{
-	color: #1959c4;
+/* custom card style */
+.card-myyp .card {
+	margin: 5px;
+}
+
+.card-myyp .card .card-block {
+	padding: 15px 3px 0px 3px;
+}
+
+.card-myyp .card-title small {
+	text-transform: uppercase;
+}
+
+.card-myyp .card ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.card-myyp .card ul li{
+	font-size: 14px;
+	margin-left: 2px !important;
+	padding: 1px 0px;
 }
 
 @media (max-width: 480px) {
