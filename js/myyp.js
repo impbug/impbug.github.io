@@ -87,6 +87,7 @@ function initApp() {
   });
   // [END authstatelistener]
   document.getElementById('google-sign-in').addEventListener('click', toggleSignIn, false);
+  document.getElementById('write-data').addEventListener('click', writeData, false);
 }
 
 window.onload = function() {
@@ -95,31 +96,42 @@ window.onload = function() {
 
 
 $(function() {
-
-  var ref = firebase.database().ref('glass');
-	ref.on('value', 
-	function(snapshot) {
-	   	renewList(snapshot);
-	}, 
-	function(error) {
-	   	console.log('Error: ' + error.code);
-	});
-
+  renewList();
 });
+
+function writeData() {
+  firebase.database().ref('glass/' + glid).set({
+    glid: document.getElementById('glid').value,
+    glname: document.getElementById('glname').value,
+    gltel: document.getElementById('gltel').value,
+    gladdr: document.getElementById('gladdr').value,
+    glweb: document.getElementById('glweb').value,
+    glvisit: document.getElementById('glvisit').value,
+  });
+  renewList();
+}
 
 function renewList(snapshot) {
 	var vsBody = '';
 	var key = '';
 	var childData = {};
-	snapshot.forEach(function(childSnapshot) {
-	    key = childSnapshot.key;
-	    childData = childSnapshot.val();
+
+  var ref = firebase.database().ref('glass');
+
+  ref.on('value', 
+  function(snapshot) {
+      snapshot.forEach(function(childSnapshot) {
+      key = childSnapshot.key;
+      childData = childSnapshot.val();
       vsBody += '<div class="card col-sm-3"> <div class="card-block">'
-              + '<h5 class="card-title">'+childData.glname+' <small class="text-muted">'+childData.glid+'</small></h5>'
+              + '<h5 class="card-title">'+childData.glname+' <small class="text-muted">'+childData.glid+' ('+childData.glvisit+')</small></h5>'
               + '<ul><li><a href="tel:'+childData.gltel+'">'+childData.gltel+'</a></li>'
               + '<li><a target="_blank" href="https://www.google.com.tw/maps/place/'+childData.gladdr+',18z">'+childData.gladdr+'</a></li>'
               + '<li><a target="_blank" href="'+childData.glweb+'">'+childData.glweb+'</a></li><ul></div></div>';
-	});
-
-	$('#theList').html(vsBody);
+    });
+    $('#theList').html(vsBody);
+  }, 
+  function(error) {
+      console.log('Error: ' + error.code);
+  });
 }
