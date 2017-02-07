@@ -88,27 +88,28 @@ function initApp() {
   // [END authstatelistener]
   document.getElementById('google-sign-in').addEventListener('click', toggleSignIn, false);
   document.getElementById('write-data').addEventListener('click', writeData, false);
+  document.getElementById('remove-data').addEventListener('click', removeData, false);
+  renewList();
 }
 
 window.onload = function() {
-  	initApp();
+  initApp();
 };
 
-
-$(function() {
-  renewList();
-});
-
 function writeData() {
-  firebase.database().ref('glass/' + glid).set({
-    glid: document.getElementById('glid').value,
-    glname: document.getElementById('glname').value,
-    gltel: document.getElementById('gltel').value,
-    gladdr: document.getElementById('gladdr').value,
-    glweb: document.getElementById('glweb').value,
-    glvisit: document.getElementById('glvisit').value,
+  var sglid = document.getElementById('sglid').value;
+  firebase.database().ref('glass/' + sglid).set({
+    glid: sglid,
+    glname: document.getElementById('sglname').value,
+    gltel: document.getElementById('sgltel').value,
+    gladdr: document.getElementById('sgladdr').value,
+    glweb: document.getElementById('sglweb').value,
+    glvisit: 'N',
   });
-  renewList();
+}
+
+function removeData() {
+  firebase.database().ref('glass/' + document.getElementById('sglid').value).remove();
 }
 
 function renewList(snapshot) {

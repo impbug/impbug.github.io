@@ -68,6 +68,7 @@ body, button, html, input, select, textarea {
 }
 
 .card-myyp .card-title small {
+	font-size: 13px;
 	text-transform: uppercase;
 }
 
