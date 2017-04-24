@@ -1,0 +1,37 @@
+body, button, html, input, select, textarea {
+    font-family: "Microsoft JhengHei";
+}
+
+.jumbotron-home {
+	padding: 30px 0px;
+	border-radius: 0px;
+	background-color: #851818;
+}
+
+h1.home-title {
+	padding: 15px 20px;
+	font-size: 64px;
+	color: #fff;
+}
+
+.profile-photo {
+	max-width: 200px;
+}
+
+.home-detail {
+	padding: 20px;
+	margin-top: 60px;
+	background-color: #2c214c;
+	height: 500px;
+}
+
+.home-detail h2 {
+	padding-top: 30px;
+	color: #fff;
+}
+
+@media (max-width: 480px) {
+	.home-detail h2 {
+		font-size: 24px;
+	}
+}
