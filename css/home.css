@@ -8,25 +8,52 @@ body, button, html, input, select, textarea {
 	background-color: #851818;
 }
 
-h1.home-title {
+.jumbotron-home h1 {
 	padding: 15px 20px;
 	font-size: 48px;
 	color: #fff;
 }
 
+.jumbotron-home p {
+	padding: 5px 25px;
+	font-size: 18px;
+	color: #c45f5f;
+}
+
 .profile-photo {
 	max-width: 200px;
+	margin-bottom: 60px;
+}
+
+.my-logo {
+	max-width: 150px;
+}
+
+.fav-quotes h2 {
+	margin-top: 20px;
+}
+
+.fav-quotes h3 {
+	color: #992727;
 }
 
 .home-detail {
 	padding: 20px;
 	margin-top: 60px;
 	background-color: #2c214c;
-	height: 500px;
 }
 
 .home-detail h2 {
-	padding-top: 20px;
-	color: #fff;
-	font-size: 18px;
+	padding: 30px 0px;
+	color: #eee;
+}
+
+.home-detail p {
+	color: #c6bddf;
+}
+
+.my-tile {
+	padding: 30px;
+	text-align: center;
+	height: 400px;
 }
