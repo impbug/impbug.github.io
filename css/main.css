@@ -75,11 +75,11 @@ body, button, html, input, select, textarea {
 
 @media (max-width: 480px) {
 	.jumbotron h1 {
-		font-size: 18px;
+		font-size: 24px;
 	}
 
 	.jumbotron p {
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.favs-item p {
