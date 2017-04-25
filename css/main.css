@@ -2,7 +2,7 @@ body, button, html, input, select, textarea {
     font-family: "Microsoft JhengHei";
 }
 
-.navbar-bugs {
+.navbar-main {
     background-color: #222 !important;
 }
 
@@ -10,31 +10,17 @@ body, button, html, input, select, textarea {
 	color: #bb6565 !important;
 }
 
-.jumbotron-bugs,
-.jumbotron-myyp {
-	padding-top: 30px;
-	padding-bottom: 10px;
+.jumbotron-main {
+	padding: 30px 0px;
 	border-radius: 0px;
 }
 
-.jumbotron-bugs p {
-	color: #cc8d8d;
+.jumbotron-main {
+	background-color: #363636 !important;
 }
 
-.jumbotron-bugs {
-	background-color: #851818 !important;
-}
-
-.jumbotron-myyp {
-	background-color: #ffc90e !important;	
-}
-
-.jumbotron-bugs {
+.jumbotron-main {
 	color: #fff;
-}
-
-.jumbotron-myyp * {
-	color: #222;
 }
 
 .nav-item .nav-link {
@@ -63,25 +49,25 @@ body, button, html, input, select, textarea {
 }
 
 /* custom card style */
-.card-myyp .card {
+.card-firebase .card {
 	margin: 5px;
 }
 
-.card-myyp .card .card-block {
+.card-firebase .card .card-block {
 	padding: 15px 3px 0px 3px;
 }
 
-.card-myyp .card-title small {
+.card-firebase .card-title small {
 	font-size: 13px;
 	text-transform: uppercase;
 }
 
-.card-myyp .card ul {
+.card-firebase .card ul {
 	list-style-type: none;
 	padding: 0px;
 }
 
-.card-myyp .card ul li{
+.card-firebase .card ul li{
 	font-size: 14px;
 	margin-left: 2px !important;
 	padding: 1px 0px;

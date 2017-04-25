@@ -5,7 +5,7 @@ body, button, html, input, select, textarea {
 .jumbotron-home {
 	padding: 30px 0px;
 	border-radius: 0px;
-	background-color: #851818;
+	background-color: #690f46;
 }
 
 .jumbotron-home h1 {
@@ -34,7 +34,7 @@ body, button, html, input, select, textarea {
 }
 
 .fav-quotes h3 {
-	color: #992727;
+	color: #690f46;
 }
 
 .home-detail {
