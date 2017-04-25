@@ -17,6 +17,10 @@ body, button, html, input, select, textarea {
 	border-radius: 0px;
 }
 
+.jumbotron-bugs p {
+	color: #cc8d8d;
+}
+
 .jumbotron-bugs {
 	background-color: #851818 !important;
 }
