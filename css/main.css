@@ -74,10 +74,6 @@ body, button, html, input, select, textarea {
 }
 
 @media (max-width: 480px) {
-	.jumbotron {
-		padding-bottom: 1px;
-	}
-
 	.jumbotron h1 {
 		font-size: 18px;
 	}
