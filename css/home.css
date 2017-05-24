@@ -5,13 +5,17 @@ body, button, html, input, select, textarea {
 .jumbotron-home {
 	padding: 30px 0px;
 	border-radius: 0px;
-	background-color: #690f46;
+	background-color: #fff;
 }
 
 .jumbotron-home h1 {
 	padding: 15px 20px;
 	font-size: 48px;
-	color: #fff;
+	color: #851818;
+}
+
+.jumbotron-home h1 small {
+	font-size: 20px;
 }
 
 .jumbotron-home p {
@@ -26,30 +30,45 @@ body, button, html, input, select, textarea {
 }
 
 .my-logo {
-	max-width: 150px;
+	max-width: 120px;
 }
 
 .fav-quotes h2 {
 	margin-top: 20px;
+	color: #999;
 }
 
 .fav-quotes h3 {
-	color: #690f46;
+	padding-top: 20px;
+	color: #222;
 }
 
 .home-detail {
 	padding: 20px;
-	margin-top: 60px;
-	background-color: #2c214c;
+	background-color: #fff;
+}
+
+.home-detail .row {
+	margin: 48px 0;
 }
 
 .home-detail h2 {
-	padding: 30px 0px;
-	color: #eee;
+	color: #999;
+}
+
+.home-detail h3 {
+	color: #262626;
+	padding-top: 20px;
 }
 
 .home-detail p {
-	color: #c6bddf;
+	margin: 0;
+	padding-left: 10px;
+}
+
+.texti-founder {
+	color: #0c5699;
+	font-weight: 700;
 }
 
 .my-tile {
