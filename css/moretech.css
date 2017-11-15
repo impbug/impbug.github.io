@@ -1,0 +1,240 @@
+body, button, html, input, select, textarea {
+    font-family: "Microsoft JhengHei";
+}
+
+.navbar .navbar-collapse { 
+	/* https://css-tricks.com/viewport-sized-typography/ */
+	max-height: 100vh !important; 
+	overflow-x: hidden !important; 
+}
+
+.navbar-toggler {
+	padding: 3px 8px 2px 8px;
+}
+
+.navbar-pyone {
+    background-color: #333 !important;
+}
+
+.navbar-brand {
+	color: #8db5ec !important;
+}
+
+.navbar-toggler {
+	border: solid 1px #eee !important;
+	border-radius: 0px;
+}
+
+.navbar-inverse .navbar-toggler-icon {
+	width: 28px;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.jumbotron-pyone {
+	padding-top: 80px;
+	padding-bottom: 10px;
+	background-color: #457cc8 !important;
+	border-radius: 0px;
+}
+
+.jumbotron-pyone h1 {
+	color: #fff;
+}
+
+.jumbotron-pyone p {
+	color: #eee;
+}
+
+.nav-item .nav-link {
+    color: #eee !important;
+}
+
+.nav-item .nav-link:hover {
+    color: #fff !important;
+}
+
+.nav-item.blank-item {
+	color: transparent;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.btn-copy {
+	font-size: 14px;
+	border-radius: 0;
+}
+
+ul.outline {
+	list-style-type: square;
+	font-size: 16px;
+}
+
+ul.lead {
+	font-size: 18px;
+}
+
+ul.none {
+	list-style-type: none;
+	font-size: 16px;
+	padding-left: 12px;
+}
+
+.section-course {
+	padding: 30px 0 15px 0;
+	border-bottom: solid 1px #b0d0f0;
+}
+
+.section-course div {
+	text-align: center;
+}
+
+.section-divider {
+	padding-top: 60px;
+}
+
+.section-divider ~ section {
+	padding-bottom: 60px;
+}
+
+.area-divider {
+	padding-top: 30px;
+}
+
+.chapter-link {
+    padding: 30px 0;
+}
+.chapter-link div {
+    padding: 5px 20px;
+}
+
+.movie-link {
+    padding: 30px 0;
+}
+.movie-link div {
+	padding: 5px 20px;
+}
+
+section h4 {
+	padding-top: 30px;
+}
+
+pre code {
+	font-size: 18px !important;
+	margin-left: -80px;
+}
+
+img {
+	max-width: 100%;
+}
+
+img.hasborder {
+	border: solid 1px #666;
+}
+
+h5.exfor {
+	color: #194bca;
+}
+
+.texti-pyone {
+	color: #3e9a32;
+}
+
+.texti-vital {
+	color: #cc4444;
+}
+
+.alert-pyone {
+	padding-bottom: 5px;
+}
+
+.footer-hr {
+	margin-top: 60px;
+}
+
+
+/* custom table */
+.table-pyone thead th:nth-child(1) {
+	width: 8%;
+}
+
+.table-pyone thead th:nth-child(n+2) {
+	width: 23%;
+}
+
+.table-pyone thead th {
+	font-weight: 400;
+	text-align: center;
+	font-size: 20px;
+}
+
+.table-pyone tr:hover {
+	background-color: #f8f8f8 !important;
+}
+
+.table-pyone tbody tr td:nth-child(1) {
+	text-align: center;
+}
+
+.table-pyone tbody tr:nth-child(1) td,
+.table-pyone tbody tr:nth-child(n+3):nth-child(-n+8) td {
+	text-align: center;
+}
+
+.table-pyone tbody tr td.cross-cols {
+	font-size: 18px;
+}
+
+.table-pyone tbody tr.price-area td span.price-orig,
+.table-pyone tbody tr.price-area td span.price-primary,
+.table-pyone tbody tr.price-area td span.price-success {
+	font-size: 20px;
+}
+
+.table-pyone tbody tr.price-area td span.price-primary {
+	color: #0275d8;
+}
+
+.table-pyone tbody tr.price-area td span.price-success {
+	color: #5cb85c;
+}
+
+
+.table-pyone tbody tr.price-area td small {
+	font-size: 16px;
+}
+
+@media screen and (max-device-width: 640px) {
+    h1 {
+		font-size: 28px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 22px;
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	pre code {
+		font-size: 16px !important;
+	}
+
+	.bg-inverse {
+		opacity: 0.95;
+	}
+
+	.nav-item .nav-link {
+		padding: 4px 0px;
+	}
+
+	.nav-item .nav-link {
+		font-size: 16px;
+	}
+}

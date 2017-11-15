@@ -5,71 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Tech Bookmarks</title>
-
+    <title>More Tech | Bug's</title>
     <link rel="icon" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/main.css">
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+    <link rel="stylesheet" href="/css/moretech.css">
   </head>
 
   <body>
 
-    <div class="jumbotron jumbotron-main">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navbar-pyone">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#home-menu" aria-controls="home-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#home">Bug's</a>
+
+      <div class="collapse navbar-collapse" id="home-menu">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="/">回主選單</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sec01">Linux</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sec02">區塊鏈</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sec03">人工智慧</a></li>
+            <li class="nav-item blank-item">&nsbp;</li>
+            <li class="nav-item blank-item">&nsbp;</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div id="home" class="jumbotron jumbotron-pyone">
       <div class="container">
-        <h1>Tech Bookmarks</h1>
+        <h1>More Tech</h1>
+        <p class="lead">技術研究</p>
       </div>
     </div>
 
-    <div class="container favs-item">
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Linux</h2>
-          <p><a target="_blank" href="https://www.debian.org/">Debian</a></p>
-          <p><a target="_blank" href="https://debian-handbook.info/browse/stable/">Debian Handbook</a></p>
-          <p><a target="_blank" href="https://www.ubuntu.com/">Ubuntu</a></p>
-          <p><a target="_blank" href="https://help.ubuntu.com/">Ubuntu Documentation</a></p>
-          <p><a target="_blank" href="https://wiki.ubuntu-tw.org/">Ubuntu 正體中文站</a></p>
-          <p><a target="_blank" href="https://www.kali.org/kali-linux-documentation/">Kali</a></p>
-          <p><a target="_blank" href="http://linux.vbird.org/">鳥哥的Linux私房菜</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>區塊鏈</h2>
-          <p><a target="_blank" href="https://www.blockchain.com/">Blockchain</a></p>
-          <p><a target="_blank" href="https://www.ibm.com/blockchain/">IBM Blockchain</a></p>
-          <p><a target="_blank" href="https://www.hyperledger.org/">Hyperledger</a></p>
-          <p><a target="_blank" href="https://www.r3.com/">R3</a></p>
-          <p><a target="_blank" href="https://ethereum.org/">Ethereum Project</a></p>
-          <p><a target="_blank" href="https://yeasy.gitbooks.io/blockchain_guide/content/">区块链技术指南</a></p>
-          <p><a target="_blank" href="http://www.businessweekly.com.tw/topics.aspx?id=topics0019">區塊鏈大變革</a></p>
-          <p><a target="_blank" href="https://buzzorange.com/techorange/2017/11/02/bitcoin-book-list/">區塊鏈書單</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>機器學習</h2>
-          
-          <p><a target="_blank" href="https://buzzorange.com/techorange/2017/08/21/the-best-ai-lesson/">機器學習自學攻略</a></p>
-          <p><a target="_blank" href="https://buzzorange.com/techorange/2017/11/09/how-to-learn-machine-learning/">機器學習數學知識</a></p>
-          <p><a target="_blank" href="https://buzzorange.com/techorange/2017/03/21/data-science-book/">資料科學書單</a></p>
-          <p><a target="_blank" href="https://buzzorange.com/techorange/2016/02/02/plan-to-be-a-data-scientist-in-new-year/">資料科學自學清單</a></p>
-          <p><a target="_blank" href="https://buzzorange.com/techorange/2017/08/21/the-best-ai-lesson/">機器學習自學攻略</a></p>
-        </div>
-      </div>
+    <div class="container">
 
-      <hr>
+      <div id="sec01" class="section-divider"></div>
+      <section>
+        <h2 class="text-primary">Linux</h2>
+
+        <h4>精選連結</h4>
+        <ul class="outline">
+            <li><a target="_blank" href="https://www.debian.org/">Debian</a></li>
+            <li><a target="_blank" href="https://debian-handbook.info/browse/stable/">Debian Handbook</a></li>
+            <li><a target="_blank" href="https://www.ubuntu.com/">Ubuntu</a></li>
+            <li><a target="_blank" href="https://help.ubuntu.com/">Ubuntu Documentation</a></li>
+            <li><a target="_blank" href="https://wiki.ubuntu-tw.org/">Ubuntu 正體中文站</a></li>
+            <li><a target="_blank" href="https://www.kali.org/kali-linux-documentation/">Kali</a></li>
+            <li><a target="_blank" href="http://linux.vbird.org/">鳥哥的Linux私房菜</a></li>
+        </ul> 
+      </section>
+
+      <div id="sec02" class="section-divider"></div>
+      <section>
+        <h2 class="text-primary">區塊鏈</h2>
+
+        <h4>精選連結</h4>
+        <ul class="outline">
+            <li><a target="_blank" href="https://www.blockchain.com/">Blockchain</a></li>
+            <li><a target="_blank" href="https://www.ibm.com/blockchain/">IBM Blockchain</a></li>
+            <li><a target="_blank" href="https://www.hyperledger.org/">Hyperledger</a></li>
+            <li><a target="_blank" href="https://www.r3.com/">R3</a></li>
+            <li><a target="_blank" href="https://ethereum.org/">Ethereum Project</a></li>
+            <li><a target="_blank" href="https://yeasy.gitbooks.io/blockchain_guide/content/">区块链技术指南</a></li>
+            <li><a target="_blank" href="http://www.businessweekly.com.tw/topics.aspx?id=topics0019">區塊鏈大變革</a></li>
+            <li><a target="_blank" href="https://buzzorange.com/techorange/2017/11/02/bitcoin-book-list/">區塊鏈書單</a></li>
+        </ul> 
+      </section>
+
+      <div id="sec03" class="section-divider"></div>
+      <section>
+        <h2 class="text-primary">人工智慧</h2>
+
+        <h4>精選連結</h4>
+        <ul class="outline">
+            <li><a target="_blank" href="https://buzzorange.com/techorange/2017/08/21/the-best-ai-lesson/">機器學習自學攻略</a></li>
+            <li><a target="_blank" href="https://buzzorange.com/techorange/2017/11/09/how-to-learn-machine-learning/">機器學習數學知識</a></li>
+            <li><a target="_blank" href="https://buzzorange.com/techorange/2017/03/21/data-science-book/">資料科學書單</a></li>
+            <li><a target="_blank" href="https://buzzorange.com/techorange/2016/02/02/plan-to-be-a-data-scientist-in-new-year/">資料科學自學清單</a></li>
+            <li><a target="_blank" href="https://buzzorange.com/techorange/2017/08/21/the-best-ai-lesson/">機器學習自學攻略</a></li>
+        </ul> 
+      </section>
+
+      <hr class="footer-hr">
 
       <footer>
-        <p>&nbsp;</p>
+        <p>2017 &copy; impbug</p>
       </footer>
-    </div>
+    </div> <!-- /container -->
 
 
-    <!-- JavaScript -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="/js/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
