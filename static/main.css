@@ -69,5 +69,6 @@ body, button, html, input, select, textarea {
         border: 1px solid #eee;
         padding: 5px 20px;
         border-radius: 3px;
+        text-align: center;
 	}
 }
