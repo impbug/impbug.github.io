@@ -44,45 +44,26 @@ body, button, html, input, select, textarea {
 	display: none;
 }
 
-.oauth-section {
-	padding-bottom: 10px;
-}
-
-/* custom card style */
-.card-firebase .card {
-	margin: 5px;
-}
-
-.card-firebase .card .card-block {
-	padding: 15px 3px 0px 3px;
-}
-
-.card-firebase .card-title small {
-	font-size: 13px;
-	text-transform: uppercase;
-}
-
-.card-firebase .card ul {
-	list-style-type: none;
-	padding: 0px;
-}
-
-.card-firebase .card ul li{
-	font-size: 14px;
-	margin-left: 2px !important;
-	padding: 1px 0px;
-}
-
-@media (max-width: 480px) {
+@media (max-width:767px) {
 	.jumbotron h1 {
-		font-size: 24px;
+		font-size: 32px;
+        text-align: center;
 	}
 
 	.jumbotron p {
-		font-size: 14px;
+		font-size: 18px;
 	}
 
-	.favs-item p {
-		font-size: 18px;
+    .favs-item h2 {
+        margin-top: 30px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+	.favs-item .row p {
+		font-size: 20px;
+        border: 1px solid #eee;
+        padding: 5px 20px;
+        border-radius: 3px;
 	}
 }
