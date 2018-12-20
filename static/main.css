@@ -46,7 +46,7 @@ body, button, html, input, select, textarea {
 
 @media (max-width:767px) {
 	.jumbotron h1 {
-		font-size: 32px;
+		font-size: 36px;
         text-align: center;
 	}
 
@@ -55,9 +55,12 @@ body, button, html, input, select, textarea {
 	}
 
     .favs-item h2 {
+        color: #fff;
+        padding: 15px 0;
         margin: 30px 0 20px;
-        font-size: 28px;
+        font-size: 32px;
         text-align: center;
+        background-color: #0464cb;
     }
 
     .favs-item .row a {
@@ -65,10 +68,10 @@ body, button, html, input, select, textarea {
     }
 
 	.favs-item .row p {
-		font-size: 20px;
+		font-size: 24px;
         border: 1px solid #eee;
-        padding: 5px 20px;
-        border-radius: 3px;
+        padding: 10px 20px;
+        border-radius: 4px;
         text-align: center;
 	}
 }
