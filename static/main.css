@@ -60,6 +60,10 @@ body, button, html, input, select, textarea {
         text-align: center;
     }
 
+    .favs-item .row a {
+        text-decoration: none;
+    }
+
 	.favs-item .row p {
 		font-size: 20px;
         border: 1px solid #eee;
