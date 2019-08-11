@@ -14,16 +14,20 @@ body, button, html, input, select, textarea {
 .jumbotron-vice {
 	padding: 30px 0px;
 	border-radius: 0px;
+    color: #fff;
+}
+
+.jumbotron-main h1,
+.jumbotron-vice h1 {
+    font-weight: bold !important;
 }
 
 .jumbotron-main {
-	background-color: #0f3054 !important;
-    color: #d2dbe4;
+	background-color: #a51c30 !important;
 }
 
 .jumbotron-vice {
     background-color: #363636 !important;
-    color: #e0e0e0;
 }
 
 .nav-item .nav-link {
@@ -32,6 +36,10 @@ body, button, html, input, select, textarea {
 
 .nav-item .nav-link:hover {
     color: #fff !important;
+}
+
+.page-main.favs-item h2 {
+    color: #a51c30;
 }
 
 .favs-item h2 {
@@ -58,13 +66,21 @@ body, button, html, input, select, textarea {
 		font-size: 18px;
 	}
 
-    .favs-item h2 {
+    .page-main.favs-item h2 {
+        background-color: #a51c30;
+    }
+
+    .page-vice.favs-item h2 {
+        background-color: #363636;
+    }
+
+    .page-main.favs-item h2,
+    .page-vice.favs-item h2 {
         color: #fff;
         padding: 15px 0;
         margin: 30px 0 20px;
         font-size: 28px;
         text-align: center;
-        background-color: #0464cb;
     }
 
     .favs-item .row a {
