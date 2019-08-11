@@ -10,17 +10,20 @@ body, button, html, input, select, textarea {
 	color: #bb6565 !important;
 }
 
-.jumbotron-main {
+.jumbotron-main,
+.jumbotron-vice {
 	padding: 30px 0px;
 	border-radius: 0px;
 }
 
 .jumbotron-main {
-	background-color: #363636 !important;
+	background-color: #0f3054 !important;
+    color: #d2dbe4;
 }
 
-.jumbotron-main {
-	color: #fff;
+.jumbotron-vice {
+    background-color: #363636 !important;
+    color: #e0e0e0;
 }
 
 .nav-item .nav-link {
@@ -34,6 +37,7 @@ body, button, html, input, select, textarea {
 .favs-item h2 {
 	padding-top: 20px;
 	font-size: 20px;
+    font-weight: bold;
 }
 
 .favs-item p {
