@@ -20,10 +20,11 @@ body, button, html, input, select, textarea {
 .jumbotron-main h1,
 .jumbotron-vice h1 {
     font-weight: bold !important;
+    font-family: Georgia;
 }
 
 .jumbotron-main {
-	background-color: #a51c30 !important;
+	background-color: #b1040e !important;
 }
 
 .jumbotron-vice {
@@ -39,7 +40,7 @@ body, button, html, input, select, textarea {
 }
 
 .page-main.favs-item h2 {
-    color: #a51c30;
+    color: #b1040e;
 }
 
 .favs-item h2 {
@@ -67,7 +68,7 @@ body, button, html, input, select, textarea {
 	}
 
     .page-main.favs-item h2 {
-        background-color: #a51c30;
+        background-color: #b1040e;
     }
 
     .page-vice.favs-item h2 {
