@@ -2,14 +2,6 @@ body, button, html, input, select, textarea {
     font-family: "Microsoft JhengHei";
 }
 
-.navbar-main {
-    background-color: #222 !important;
-}
-
-.navbar-brand {
-	color: #bb6565 !important;
-}
-
 .jumbotron-main,
 .jumbotron-vice {
 	padding: 30px 0px;
@@ -31,30 +23,22 @@ body, button, html, input, select, textarea {
     background-color: #363636 !important;
 }
 
-.nav-item .nav-link {
-    color: #eee !important;
-}
-
-.nav-item .nav-link:hover {
-    color: #fff !important;
-}
-
-.page-main.favs-item h2 {
+.page-main h2 {
     color: #b1040e;
 }
 
-.favs-item h2 {
+h2 {
 	padding-top: 20px;
 	font-size: 20px;
     font-weight: bold;
 }
 
-.favs-item p {
+p {
 	margin: 5px 0px;
 }
 
-.no-display {
-	display: none;
+a {
+    text-decoration: none;
 }
 
 @media (max-width:767px) {
@@ -67,16 +51,16 @@ body, button, html, input, select, textarea {
 		font-size: 18px;
 	}
 
-    .page-main.favs-item h2 {
+    .page-main h2 {
         background-color: #b1040e;
     }
 
-    .page-vice.favs-item h2 {
+    .page-vice h2 {
         background-color: #363636;
     }
 
-    .page-main.favs-item h2,
-    .page-vice.favs-item h2 {
+    .page-main h2,
+    .page-vice h2 {
         color: #fff;
         padding: 15px 0;
         margin: 30px 0 20px;
@@ -84,11 +68,7 @@ body, button, html, input, select, textarea {
         text-align: center;
     }
 
-    .favs-item .row a {
-        text-decoration: none;
-    }
-
-	.favs-item .row p {
+	.row p {
 		font-size: 20px;
         border: 1px solid #eee;
         padding: 10px 20px;
