@@ -3,24 +3,38 @@ body, button, html, input, select, textarea {
 }
 
 .jumbotron-main,
-.jumbotron-vice {
-	padding: 30px 0px;
-	border-radius: 0px;
-    color: #fff;
-}
-
-.jumbotron-main h1,
-.jumbotron-vice h1 {
-    font-weight: bold !important;
-    font-family: Georgia;
+.jumbotron-misc,
+.jumbotron-porn {
+    padding: 32px 0px;
+    border-radius: 0px;
 }
 
 .jumbotron-main {
-	background-color: #b1040e !important;
+	background-color: #005174 !important;
 }
 
-.jumbotron-vice {
+.jumbotron-misc {
     background-color: #363636 !important;
+}
+
+.jumbotron-porn {
+    background-color: #ff9000 !important;
+}
+
+.jumbotron-main,
+.jumbotron-misc {
+    color: #fff;
+}
+
+.jumbotron-porn {
+    color: #000;
+}
+
+.jumbotron-main h1,
+.jumbotron-misc h1,
+.jumbotron-porn h1 {
+    font-weight: bold !important;
+    font-family: Georgia;
 }
 
 .page-main h2 {
@@ -53,14 +67,6 @@ a {
 
     .page-main h2 {
         background-color: #b1040e;
-    }
-
-    .page-vice h2 {
-        background-color: #363636;
-    }
-
-    .page-main h2,
-    .page-vice h2 {
         color: #fff;
         padding: 15px 0;
         margin: 30px 0 20px;
