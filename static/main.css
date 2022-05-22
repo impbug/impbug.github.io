@@ -11,23 +11,17 @@ body, button, html, input, select, textarea {
 
 .jumbotron-main {
 	background-color: #005174 !important;
+    color: #d4dfe3;
 }
 
 .jumbotron-misc {
-    background-color: #363636 !important;
+    background-color: #282923 !important;
+    color: #f8a1a4;
 }
 
 .jumbotron-porn {
-    background-color: #ff9000 !important;
-}
-
-.jumbotron-main,
-.jumbotron-misc {
-    color: #fff;
-}
-
-.jumbotron-porn {
-    color: #000;
+    background-color: #282923 !important;
+    color: #ff9800;
 }
 
 .jumbotron-main h1,
