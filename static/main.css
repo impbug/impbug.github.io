@@ -5,7 +5,7 @@ body, button, html, input, select, textarea {
 .jumbotron-main,
 .jumbotron-misc,
 .jumbotron-porn {
-    padding: 32px 0px;
+    padding: 20px 0px;
     border-radius: 0px;
 }
 
@@ -49,6 +49,10 @@ a {
     text-decoration: none;
 }
 
+.smaller {
+    font-size: 0.7em;
+}
+
 @media (max-width:767px) {
 	.jumbotron h1 {
 		font-size: 36px;
@@ -69,7 +73,7 @@ a {
     }
 
 	.row p {
-		font-size: 20px;
+		font-size: 24px;
         border: 1px solid #eee;
         padding: 10px 20px;
         border-radius: 4px;
