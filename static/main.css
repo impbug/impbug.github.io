@@ -1,5 +1,6 @@
 body, button, html, input, select, textarea {
     font-family: "Microsoft JhengHei";
+    background-color: #f1f1f1;
 }
 
 .jumbotron-main,
@@ -10,17 +11,17 @@ body, button, html, input, select, textarea {
 }
 
 .jumbotron-main {
-	background-color: #005174 !important;
-    color: #d4dfe3;
+	background-color: #000 !important;
+    color: #f4a7ba;
 }
 
 .jumbotron-misc {
-    background-color: #282923 !important;
-    color: #f8a1a4;
+    background-color: #000 !important;
+    color: #78bedf;
 }
 
 .jumbotron-porn {
-    background-color: #282923 !important;
+    background-color: #000 !important;
     color: #ff9800;
 }
 
@@ -31,22 +32,53 @@ body, button, html, input, select, textarea {
     font-family: Georgia;
 }
 
-.page-main h2 {
-    color: #b1040e;
-}
-
 h2 {
-	padding-top: 20px;
-	font-size: 20px;
+    padding-top: 20px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 p {
-	margin: 5px 0px;
+    margin: 5px 0px;
 }
 
-a {
+.page-main h2 {
+    color: #ad445c;
+}
+
+.body-main a {
+    color: #000;
     text-decoration: none;
+}
+
+.body-main a:hover {
+    color: #ad445c;
+}
+
+.page-misc h2 {
+    color: #0281bd;
+}
+
+.body-misc a {
+    color: #000;
+    text-decoration: none;
+}
+
+.body-misc a:hover {
+    color: #ad445c;
+}
+
+.page-porn h2 {
+    color: #ca7901;
+}
+
+.body-porn a {
+    color: #000;
+    text-decoration: none;
+}
+
+.body-porn a:hover {
+    color: #ca7901;
 }
 
 .smaller {
@@ -63,13 +95,23 @@ a {
 		font-size: 18px;
 	}
 
-    .page-main h2 {
-        background-color: #b1040e;
-        color: #fff;
+    .page-main h2,
+    .page-misc h2,
+    .page-porn h2 {
+        background-color: #000;
         padding: 15px 0;
         margin: 30px 0 20px;
         font-size: 28px;
         text-align: center;
+    }
+    .page-main h2 {
+        color: #f4a7ba;
+    }
+    .page-misc h2 {
+        color: #78bedf;
+    }
+    .page-porn h2 {
+        color: #ff9800;
     }
 
 	.row p {
