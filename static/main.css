@@ -82,7 +82,7 @@ p {
 }
 
 .smaller {
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 @media (max-width:767px) {
@@ -98,27 +98,26 @@ p {
     .page-main h2,
     .page-misc h2,
     .page-porn h2 {
-        background-color: #000;
-        padding: 15px 0;
-        margin: 30px 0 20px;
+        padding: 10px 0;
+        margin: 20px 0;
         font-size: 28px;
         text-align: center;
+        color: #fff;
     }
     .page-main h2 {
-        color: #f4a7ba;
+        background-color: #ad445c;
     }
     .page-misc h2 {
-        color: #78bedf;
+        background-color: #0281bd;
     }
     .page-porn h2 {
-        color: #ff9800;
+        background-color: #ca7901;
     }
 
 	.row p {
 		font-size: 22px;
-        border: 1px solid #eee;
-        padding: 10px 20px;
-        border-radius: 4px;
+        border: 1px solid transparent;
+        padding: 8px 10px;
         text-align: center;
 	}
 }
