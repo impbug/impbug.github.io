@@ -85,6 +85,10 @@ p {
     font-size: 0.9em;
 }
 
+ul.outline li {
+    font-size: 20px;
+}
+
 @media (max-width:767px) {
 	.jumbotron h1 {
 		font-size: 36px;
