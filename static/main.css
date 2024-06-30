@@ -105,7 +105,8 @@ ul.outline li {
 
     .page-main h2,
     .page-misc h2,
-    .page-porn h2 {
+    .page-porn h2,
+    .page-porn h2.missav {
         padding: 10px 0;
         margin: 20px 0;
         font-size: 28px;
@@ -120,6 +121,9 @@ ul.outline li {
     }
     .page-porn h2 {
         background-color: #ca7901;
+    }
+    .page-porn h2.missav {
+        background-color: #d80e70;
     }
 
 	.row p {
