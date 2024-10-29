@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
   --main-color: #5e068c;
   --misc-color: #0281bd;
@@ -96,17 +98,16 @@ p {
 }
 
 ul.outline li {
-    font-size: 20px;
+    font-size: 18px;
+    margin: 6px 0;
 }
 
 @media (max-width:767px) {
-	.jumbotron h1 {
+	.jumbotron-main h1,
+    .jumbotron-misc h1,
+    .jumbotron-porn h1 {
 		font-size: 36px;
         text-align: center;
-	}
-
-	.jumbotron p {
-		font-size: 18px;
 	}
 
     .page-main h2,
@@ -120,22 +121,25 @@ ul.outline li {
         color: #fff;
     }
     .page-main h2 {
-        background-color: var(--main-color);
+        color: var(--main-color);
+        border-bottom: solid 5px var(--main-color);
     }
     .page-misc h2 {
-        background-color: var(--misc-color);
+        color: var(--misc-color);
+        border-bottom: solid 5px var(--misc-color);
     }
     .page-porn h2 {
-        background-color: var(--porn-color);
+        color: var(--porn-color);
+        border-bottom: solid 5px var(--porn-color);
     }
     .page-porn h2.missav {
-        background-color: #d80e70;
+        color: #d80e70;
+        border-bottom: solid 5px #d80e70;
     }
 
 	.row p {
 		font-size: 22px;
         border: 1px solid transparent;
-        padding: 8px 10px;
-        text-align: center;
+        padding: 6px 8px;
 	}
 }
