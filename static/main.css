@@ -1,3 +1,9 @@
+:root {
+  --main-color: #5e068c;
+  --misc-color: #0281bd;
+  --porn-color: #ca7901;
+}
+
 body, button, html, input, select, textarea {
     font-family: "Microsoft JhengHei";
     background-color: #f1f1f1;
@@ -11,18 +17,18 @@ body, button, html, input, select, textarea {
 }
 
 .jumbotron-main {
-	background-color: #000 !important;
-    color: #f4a7ba;
+	background-color: var(--main-color) !important;
+    color: #fff;
 }
 
 .jumbotron-misc {
-    background-color: #000 !important;
-    color: #78bedf;
+    background-color: var(--misc-color) !important;
+    color: #fff;
 }
 
 .jumbotron-porn {
-    background-color: #000 !important;
-    color: #ff9800;
+    background-color: var(--porn-color) !important;
+    color: #fff;
 }
 
 .jumbotron-main h1,
@@ -43,7 +49,7 @@ p {
 }
 
 .page-main h2 {
-    color: #ad445c;
+    color: var(--main-color);
 }
 
 .body-main a {
@@ -52,11 +58,11 @@ p {
 }
 
 .body-main a:hover {
-    color: #ad445c;
+    color: var(--main-color);
 }
 
 .page-misc h2 {
-    color: #0281bd;
+    color: var(--misc-color);
 }
 
 .body-misc a {
@@ -65,11 +71,11 @@ p {
 }
 
 .body-misc a:hover {
-    color: #0281bd;
+    color: var(--misc-color);
 }
 
 .page-porn h2 {
-    color: #ca7901;
+    color: var(--porn-color);
 }
 
 .page-porn h2.missav {
@@ -82,7 +88,7 @@ p {
 }
 
 .body-porn a:hover {
-    color: #ca7901;
+    color: var(--porn-color);
 }
 
 .smaller {
@@ -114,13 +120,13 @@ ul.outline li {
         color: #fff;
     }
     .page-main h2 {
-        background-color: #ad445c;
+        background-color: var(--main-color);
     }
     .page-misc h2 {
-        background-color: #0281bd;
+        background-color: var(--misc-color);
     }
     .page-porn h2 {
-        background-color: #ca7901;
+        background-color: var(--porn-color);
     }
     .page-porn h2.missav {
         background-color: #d80e70;
