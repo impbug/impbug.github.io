@@ -80,6 +80,10 @@ p {
     color: var(--porn-color);
 }
 
+.page-porn small {
+    color: #333;
+}
+
 .page-porn h2.missav {
     color: #d80e70;
 }
