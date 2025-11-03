@@ -4,6 +4,7 @@
   --main-color: #5e068c;
   --misc-color: #0281bd;
   --porn-color: #ca7901;
+  --food-color: #039365;
 }
 
 body, button, html, input, select, textarea {
@@ -13,7 +14,8 @@ body, button, html, input, select, textarea {
 
 .jumbotron-main,
 .jumbotron-misc,
-.jumbotron-porn {
+.jumbotron-porn,
+.jumbotron-food {
     padding: 20px 0px;
     border-radius: 0px;
 }
@@ -33,9 +35,15 @@ body, button, html, input, select, textarea {
     color: #fff;
 }
 
+.jumbotron-food {
+    background-color: var(--food-color) !important;
+    color: #fff;
+}
+
 .jumbotron-main h1,
 .jumbotron-misc h1,
-.jumbotron-porn h1 {
+.jumbotron-porn h1,
+.jumbotron-food h1 {
     font-weight: bold !important;
     font-family: Roboto;
 }
@@ -97,6 +105,23 @@ p {
     color: var(--porn-color);
 }
 
+.page-food h2 {
+    color: var(--food-color);
+}
+
+.page-food small {
+    color: #333;
+}
+
+.body-food a {
+    color: #000;
+    text-decoration: none;
+}
+
+.body-food a:hover {
+    color: var(--food-color);
+}
+
 .smaller {
     font-size: 0.9em;
 }
@@ -109,7 +134,8 @@ ul.outline li {
 @media (max-width:767px) {
 	.jumbotron-main h1,
     .jumbotron-misc h1,
-    .jumbotron-porn h1 {
+    .jumbotron-porn h1,
+    .jumbotron-food h1 {
 		font-size: 36px;
         text-align: center;
 	}
@@ -117,7 +143,8 @@ ul.outline li {
     .page-main h2,
     .page-misc h2,
     .page-porn h2,
-    .page-porn h2.missav {
+    .page-porn h2.missav,
+    .page-food h2, {
         padding: 10px 0;
         margin: 20px 0;
         font-size: 28px;
@@ -139,6 +166,10 @@ ul.outline li {
     .page-porn h2.missav {
         color: #d80e70;
         border-bottom: solid 5px #d80e70;
+    }
+    .page-food h2 {
+        color: var(--food-color);
+        border-bottom: solid 5px var(--food-color);
     }
 
 	.row p {
