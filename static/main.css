@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-  --main-color: #5e068c;
-  --misc-color: #0281bd;
-  --porn-color: #ca7901;
-  --food-color: #039365;
+  --theme1-color: #5e068c;
+  --theme2-color: #0281bd;
+  --theme3-color: #ca7901;
+  --theme4-color: #039365;
 }
 
 body, button, html, input, select, textarea {
@@ -12,114 +12,111 @@ body, button, html, input, select, textarea {
     background-color: #f1f1f1;
 }
 
-.jumbotron-main,
-.jumbotron-misc,
-.jumbotron-porn,
-.jumbotron-food {
-    padding: 20px 0px;
+.jumbotron {
+    padding: 15px 0px 6px;
     border-radius: 0px;
 }
 
-.jumbotron-main {
-	background-color: var(--main-color) !important;
+.jumbotron-theme1 {
+	background-color: var(--theme1-color) !important;
     color: #fff;
 }
 
-.jumbotron-misc {
-    background-color: var(--misc-color) !important;
+.jumbotron-theme2 {
+    background-color: var(--theme2-color) !important;
     color: #fff;
 }
 
-.jumbotron-porn {
-    background-color: var(--porn-color) !important;
+.jumbotron-theme3 {
+    background-color: var(--theme3-color) !important;
     color: #fff;
 }
 
-.jumbotron-food {
-    background-color: var(--food-color) !important;
+.jumbotron-theme4 {
+    background-color: var(--theme4-color) !important;
     color: #fff;
 }
 
-.jumbotron-main h1,
-.jumbotron-misc h1,
-.jumbotron-porn h1,
-.jumbotron-food h1 {
+.jumbotron h1 {
+    font-size: 2em;
     font-weight: bold !important;
     font-family: Roboto;
 }
 
 h2 {
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-p {
-    margin: 5px 0px;
+.row p {
+    font-size: 1em;
+    border: 1px solid transparent;
+    margin: 2px 0px;
 }
 
-.page-main h2 {
-    color: var(--main-color);
+.page-theme1 h2 {
+    color: var(--theme1-color);
 }
 
-.body-main a {
+.body-theme1 a {
     color: #000;
     text-decoration: none;
 }
 
-.body-main a:hover {
-    color: var(--main-color);
+.body-theme1 a:hover {
+    color: var(--theme1-color);
 }
 
-.page-misc h2 {
-    color: var(--misc-color);
+.page-theme2 h2 {
+    color: var(--theme2-color);
 }
 
-.body-misc a {
+.body-theme2 a {
     color: #000;
     text-decoration: none;
 }
 
-.body-misc a:hover {
-    color: var(--misc-color);
+.body-theme2 a:hover {
+    color: var(--theme2-color);
 }
 
-.page-porn h2 {
-    color: var(--porn-color);
+.page-theme3 h2 {
+    color: var(--theme3-color);
 }
 
-.page-porn small {
+.page-theme3 small {
     color: #333;
 }
 
-.page-porn h2.missav {
+.page-theme3 h2.missav {
     color: #d80e70;
 }
 
-.body-porn a {
+.body-theme3 a {
     color: #000;
     text-decoration: none;
 }
 
-.body-porn a:hover {
-    color: var(--porn-color);
+.body-theme3 a:hover {
+    color: var(--theme3-color);
 }
 
-.page-food h2 {
-    color: var(--food-color);
+.page-theme4 h2 {
+    color: var(--theme4-color);
 }
 
-.page-food small {
+.page-theme4 small {
     color: #333;
 }
 
-.body-food a {
+.body-theme4 a {
     color: #000;
     text-decoration: none;
 }
 
-.body-food a:hover {
-    color: var(--food-color);
+.body-theme4 a:hover {
+    color: var(--theme4-color);
 }
 
 .smaller {
@@ -127,54 +124,53 @@ p {
 }
 
 ul.outline li {
-    font-size: 18px;
-    margin: 6px 0;
+    font-size: 1em;
+    margin: 4px 0;
 }
 
 @media (max-width:767px) {
-	.jumbotron-main h1,
-    .jumbotron-misc h1,
-    .jumbotron-porn h1,
-    .jumbotron-food h1 {
-		font-size: 36px;
+	.jumbotron h1 {
+		font-size: 2em;
         text-align: center;
 	}
 
-    .page-main h2,
-    .page-misc h2,
-    .page-porn h2,
-    .page-porn h2.missav,
-    .page-food h2, {
+    h2 {
         padding: 10px 0;
-        margin: 20px 0;
-        font-size: 28px;
-        text-align: center;
+        margin: 10px 0;
+        font-size: 1.4em;
+        text-align: left;
         color: #fff;
     }
-    .page-main h2 {
-        color: var(--main-color);
-        border-bottom: solid 5px var(--main-color);
+
+    .page-theme1 h2 {
+        color: var(--theme1-color);
+        border-bottom: solid 5px var(--theme1-color);
     }
-    .page-misc h2 {
-        color: var(--misc-color);
-        border-bottom: solid 5px var(--misc-color);
+    .page-theme2 h2 {
+        color: var(--theme2-color);
+        border-bottom: solid 5px var(--theme2-color);
     }
-    .page-porn h2 {
-        color: var(--porn-color);
-        border-bottom: solid 5px var(--porn-color);
+    .page-theme3 h2 {
+        color: var(--theme3-color);
+        border-bottom: solid 5px var(--theme3-color);
     }
-    .page-porn h2.missav {
+    .page-theme3 h2.missav {
         color: #d80e70;
         border-bottom: solid 5px #d80e70;
     }
-    .page-food h2 {
-        color: var(--food-color);
-        border-bottom: solid 5px var(--food-color);
+    .page-theme4 h2 {
+        color: var(--theme4-color);
+        border-bottom: solid 5px var(--theme4-color);
     }
 
 	.row p {
-		font-size: 22px;
+		font-size: 1.4em;
         border: 1px solid transparent;
-        padding: 6px 8px;
+        padding: 2px 8px;
 	}
+
+    ul.outline li {
+        font-size: 1.4em;
+        margin: 4px 0;
+    }
 }
