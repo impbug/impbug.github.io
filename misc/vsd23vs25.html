@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心臟超音波歷年追蹤比較</title>
+    <style>
+        :root { --primary: #2980b9; --success: #27ae60; --warning: #f39c12; --bg: #f8f9fa; }
+        body { font-family: -apple-system, "Microsoft JhengHei", sans-serif; line-height: 1.6; background-color: var(--bg); color: #333; margin: 0; padding: 15px; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; text-align: center; font-size: 22px; border-bottom: 3px solid var(--primary); padding-bottom: 10px; }
+        .summary-box { background: #e8f4fd; border-radius: 10px; padding: 15px; margin: 20px 0; border-left: 6px solid var(--primary); }
+        .comparison-table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 15px; }
+        .comparison-table th { background-color: #eee; color: #333; font-weight: bold; text-align: left; }
+        .comparison-table td, .comparison-table th { padding: 12px 10px; border: 1px solid #ddd; }
+        .improved { background-color: #eafaf1; color: var(--success); font-weight: bold; }
+        .status-tag { display: inline-block; padding: 3px 10px; border-radius: 15px; font-size: 13px; font-weight: bold; }
+        .tag-good { background: var(--success); color: white; }
+        .note { font-size: 13px; color: #666; margin-top: 5px; font-style: italic; }
+        @media screen and (max-width: 600px) {
+            .comparison-table { font-size: 13px; }
+            .comparison-table td, .comparison-table th { padding: 8px 5px; }
+            h1 { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>💓 心臟超音波數據比較分析表 (2023 vs 2025)</h1>
+
+    <div class="summary-box">
+        <strong>💡 總體評估：明顯進步</strong><br>
+        過去兩年，孩子的心臟展現了強大的<strong>自癒趨勢</strong>。實際分流出口縮小，且右心壓力（TR流速）大幅下降，這是一個非常令人振奮的變化。
+    </div>
+
+    <table class="comparison-table">
+        <thead>
+            <tr>
+                <th>追蹤項目</th>
+                <th>2023 年 (8歲)</th>
+                <th>2025 年 (10歲)</th>
+                <th>變化分析</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>VSD 實際出口</strong></td>
+                <td>5.25 mm</td>
+                <td class="improved">2.78 mm</td>
+                <td>縮小約 47% ✨</td>
+            </tr>
+            <tr>
+                <td><strong>自癒組織 (動脈瘤)</strong></td>
+                <td>未提及</td>
+                <td class="improved">10.3 mm (已形成)</td>
+                <td>出現保護性修補</td>
+            </tr>
+            <tr>
+                <td><strong>TR 流速 (右心壓)</strong></td>
+                <td>3.42 m/sec</td>
+                <td class="improved">2.31 m/sec</td>
+                <td>壓力大幅緩解 ✨</td>
+            </tr>
+            <tr>
+                <td><strong>分流方向與類型</strong></td>
+                <td>懷疑 LV-to-RA</td>
+                <td class="improved">單純 L-to-R</td>
+                <td>結構趨向穩定</td>
+            </tr>
+            <tr>
+                <td><strong>腔室擴大情形</strong></td>
+                <td>LV 與 LA 均擴大</td>
+                <td class="improved">僅 LV 輕度擴大</td>
+                <td>左心房負擔減輕</td>
+            </tr>
+            <tr>
+                <td><strong>心臟收縮 (EF)</strong></td>
+                <td>57.0%</td>
+                <td>52.3%</td>
+                <td>均維持在正常範圍</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="margin-top: 25px;">
+        <h3 style="color: var(--primary);">📋 醫師溝通重點建議</h3>
+        <ul style="padding-left: 20px;">
+            <li><strong>關於 TR：</strong> 2.31 m/s 的流速下降是否代表原本懷疑的左心室對右心房分流（Gerbode）已消失？</li>
+            <li><strong>關於動脈瘤：</strong> 目前動脈瘤的生長非常理想，未來完全閉合的可能性高嗎？</li>
+            <li><strong>關於追蹤：</strong> 既然數值有明顯改善，後續追蹤的頻率可以維持一年一次嗎？</li>
+        </ul>
+    </div>
+
+    <div class="note">
+        * 本資料由家長提供之原始報告內容整理而成。請務必與小兒心臟專科醫師討論最終醫療計畫。
+    </div>
+</div>
+
+</body>
+</html>
