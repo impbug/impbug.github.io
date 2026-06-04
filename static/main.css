@@ -123,6 +123,11 @@ h2 {
     font-size: 0.9em;
 }
 
+span.gopub {
+    font-weight: bold !important;
+    color:#d80e70 !important;
+}
+
 ul.outline li {
     font-size: 1em;
     margin: 4px 0;
