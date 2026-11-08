@@ -6,7 +6,7 @@
 }
 
 body, button, html, input, select, textarea {
-    font-family: Roboto;
+    font-family: "Roboto Mono", monospace;
     background-color: #f1f1f1;
 }
 
@@ -38,7 +38,7 @@ body, button, html, input, select, textarea {
 .jumbotron h1 {
     font-size: 2em;
     font-weight: bold !important;
-    font-family: Roboto;
+    font-family: "Roboto Mono", monospace;
 }
 
 h2 {
